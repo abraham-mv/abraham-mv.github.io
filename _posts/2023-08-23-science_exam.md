@@ -581,16 +581,6 @@ As mentioned before, we will be using the sentence-transformers package, if you 
 ! pip install sentence-transformers --quiet
 ```
 
-    [2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m86.0/86.0 kB[0m [31m1.1 MB/s[0m eta [36m0:00:00[0m
-    [?25h  Preparing metadata (setup.py) ... [?25l[?25hdone
-    [2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7.5/7.5 MB[0m [31m61.9 MB/s[0m eta [36m0:00:00[0m
-    [2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.3/1.3 MB[0m [31m59.9 MB/s[0m eta [36m0:00:00[0m
-    [2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m268.8/268.8 kB[0m [31m21.8 MB/s[0m eta [36m0:00:00[0m
-    [2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7.8/7.8 MB[0m [31m82.7 MB/s[0m eta [36m0:00:00[0m
-    [2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.3/1.3 MB[0m [31m76.7 MB/s[0m eta [36m0:00:00[0m
-    [?25h  Building wheel for sentence-transformers (setup.py) ... [?25l[?25hdone
-
-
 Next we import the `SentenceTransformer` and `CrossEncoder` functions. And initialize the models. For our Cross encoder we will be using ['distilroberta-base'](https://huggingface.co/distilroberta-base), and for our bi-encoder we will use ['multi-qa-mpnet-base-cos-v1'](https://huggingface.co/sentence-transformers/multi-qa-mpnet-base-cos-v1), which has been pre-train in question, answer pairs from different sites like StackExchange, Yahoo Answers, Google & Bing search queries.
 
 
