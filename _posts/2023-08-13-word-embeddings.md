@@ -1,6 +1,5 @@
 ---
 title: "Topic Modelling (Part 1): Introduction to text embeddings"
-author: "Abraham Morales"
 date: 2023-08-13 11:33:00 +0800
 categories: [Text Analysis]
 tags: [word embeddings]
